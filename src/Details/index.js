@@ -21,7 +21,7 @@ const MapComponent = ({ cityCoord }) => {
 
   return (
     <LoadScript
-      googleMapsApiKey="AIzaSyBPZNXjL78M6--igCEIN1CFpS1MKqAD5Fc" // Replace with your Google Maps API key
+      googleMapsApiKey="AIzaSyBPZNXjL78M6--igCEIN1CFpS1MKqAD5Fc" 
     >
       <GoogleMap mapContainerStyle={mapContainerStyle} center={center} zoom={10}>
         <Marker position={center} />
