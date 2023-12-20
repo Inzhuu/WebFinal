@@ -31,7 +31,7 @@
   border-top-right-radius: 12px;
   border-bottom-right-radius: 12px;
   border: 1px solid cornflowerblue;
-
+  cursor: pointer;
 }
 
 /* Input finish */
