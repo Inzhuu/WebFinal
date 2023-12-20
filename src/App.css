@@ -1,0 +1,161 @@
+.Main {
+  background-color: #d8d8d8;
+  height: 100vh;
+  padding: 24px;
+}
+
+/* Input start */
+
+.InputWrap {
+  display: flex;
+  height: 50px;
+  border-radius: 12px;
+  margin-bottom: 24px;
+  box-shadow: 3px 3px 12px 1px rgba(0,0,0,0.25);
+}
+
+.Input {
+  width: 80%;
+  padding: 4px 8px;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  background-color: cornflowerblue;
+  font-size: 18px;
+  color: #fff;
+  border: none;
+  outline: 0;
+}
+
+.Button {
+  width: 20%;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  border: 1px solid cornflowerblue;
+
+}
+
+/* Input finish */
+
+/* Card List start */
+
+.List {
+  display: flex;
+}
+
+.Select {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-bottom: 24px;
+  width: 10%;
+  padding: 4px 8px;
+  border-radius: 8px;
+  color: cornflowerblue;
+  border: 1px solid cornflowerblue;
+} 
+
+.Card {
+  width: 200px;
+  height: fit-content;
+  padding: 12px;
+  border-radius: 15px;
+  background-color: cornflowerblue;
+  font-size: 14px;
+  color: #fff;
+  margin-left: 24px;
+  box-shadow: 3px 3px 12px 1px rgba(0,0,0,0.25);
+  text-decoration: none;
+  display: block;
+}
+
+.Card:first-child {
+  margin-left: 0;
+}
+
+.ActionButtonWrap {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ActionButton {
+  background: #fff;
+  border: 1px solid blue;
+  border-radius: 5px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.MainInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Title {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.Description {
+  margin-top: 4px;
+  font-size: 16px;
+}
+
+.Temperature {
+  margin-top: 12px;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.TemperatureIcon::after {
+  content: "°";
+}
+
+.Information {
+  margin-top: 12px;
+}
+
+.Information > div {
+  margin-top: 4px;
+}
+
+/* Card finish */
+
+/* Details start */
+
+.DetailsWrap{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.HourlyCards {
+  margin-top: 24px;
+  display: flex;
+  overflow-x: scroll;
+  width: 100%;
+  padding: 20px;
+}
+
+.HourlyCard {
+  background-color: cornflowerblue;
+  border-radius: 12px;
+  margin-left: 8px;
+  box-shadow: 3px 3px 12px 1px rgba(0,0,0,0.25);
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+.TemperatureIcon::after {
+  content: "°";
+}
+
+.Back {
+  color: #fff;
+  margin-bottom: 24px;
+  text-decoration: none;
+}
+
+.Back:hover{
+  text-decoration: underline;
+}
+
+/* Details finish */
